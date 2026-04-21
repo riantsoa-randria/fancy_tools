@@ -23,8 +23,8 @@ fi
 
 
 # Ajouter les copnfigurations
-add_if_missing "source $(pwd)/.aliases"
-add_if_missing "source $(pwd)/.fancy_functions.sh"
+add_if_missing "source $(pwd)/perso.aliases"
+add_if_missing "source $(pwd)/fancy_functions.sh"
 add_if_missing 'export PATH=$HOME/bin:$PATH'
 
 #ajoute bin si absent
